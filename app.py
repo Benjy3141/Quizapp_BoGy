@@ -12,7 +12,7 @@ if not os.path.exists(HIGHSCORE_FILE):
     with open(HIGHSCORE_FILE, "w") as f:
         json.dump([], f)
 #wie viele Fragen gestellt werden (max. 35 (wird automatisch auf 35 runtergesetzt) wegen nicht genug speicherplatz in session(liste))
-QUESTION_COUNT = 1
+QUESTION_COUNT = 10
 
 
 # Fragen
